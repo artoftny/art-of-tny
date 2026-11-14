@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — ART OF TNY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html">ART OF TNY<span>®</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a class="active" href="gallery.html">Gallery</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-heading">
+    <p class="eyebrow">OUR CREATIVE WORLD</p>
+    <h1>The Art <em>Gallery.</em></h1>
+    <p>A collection of little creations and lovely ideas.</p>
+  </section>
+
+  <!-- TWO ART COLLECTIONS -->
+  <section class="art-collections">
+
+    <a href="#traditional" class="art-category">
+      <div class="category-image traditional-cover">
+        <span>✿</span>
+      </div>
+      <h2>Traditional Art</h2>
+      <p>On Paper · Hand-drawn creations</p>
+      <span class="collection-link">Explore Collection →</span>
+    </a>
+
+    <a href="#digital" class="art-category">
+      <div class="category-image digital-cover">
+        <span>♡</span>
+      </div>
+      <h2>Digital Art</h2>
+      <p>Digital Creations · Creative designs</p>
+      <span class="collection-link">Explore Collection →</span>
+    </a>
+
+  </section>
+
+  <!-- TRADITIONAL ART -->
+  <section class="art-detail" id="traditional">
+    <p class="eyebrow">COLLECTION 01</p>
+    <h2>Traditional Art <em>— On Paper</em></h2>
+    <p>Little artworks created by hand with pencil and colored pencils.</p>
+
+    <div class="art-placeholder">
+      <span>✿</span>
+      <p>Traditional artworks will appear here.</p>
+    </div>
+  </section>
+
+  <!-- DIGITAL ART -->
+  <section class="art-detail" id="digital">
+    <p class="eyebrow">COLLECTION 02</p>
+    <h2>Digital Art <em>— Digital Creations</em></h2>
+    <p>Lovely digital illustrations, designs, and creative ideas.</p>
+
+    <div class="art-placeholder">
+      <span>♡</span>
+      <p>Digital artworks will appear here.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <a class="logo" href="index.html">ART OF TNY®</a>
+  <p>A little creativity, a lot of love.</p>
+  <small>© 2026 ART OF TNY</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
