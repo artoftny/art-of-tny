@@ -944,6 +944,42 @@ footer p, footer small {
   line-height: 1.9;
 }
 
+/* ABOUT PAGE - MOBILE SPACING FIX */
+
+@media (max-width: 650px) {
+
+  .page-heading {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-story {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-story-text {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .creative-world {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .creative-card {
+    padding: 35px 25px;
+  }
+
+  .about-philosophy,
+  .about-promise {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+}
+
 .about-promise {
   padding-top: 65px;
   padding-bottom: 65px;
