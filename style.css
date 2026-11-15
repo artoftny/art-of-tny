@@ -979,6 +979,34 @@ footer p, footer small {
   }
 
 }
+/* FIX JARAK TEPI HALAMAN ABOUT */
+@media screen and (max-width: 650px) {
+
+  .about-story,
+  .creative-world,
+  .about-philosophy,
+  .about-promise {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .about-story-text,
+  .creative-world-grid,
+  .creative-card {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .about-story-text p,
+  .about-philosophy p,
+  .about-promise p,
+  .creative-card p {
+    line-height: 1.8;
+    overflow-wrap: break-word;
+  }
+}
 
 .about-promise {
   padding-top: 65px;
