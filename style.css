@@ -825,3 +825,161 @@ footer p, footer small {
   }
 }
 
+/* ABOUT PAGE */
+
+.about-story {
+  max-width: 1050px;
+  margin: 70px auto 110px;
+  padding: 0 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 65px;
+}
+
+.about-story-visual {
+  min-height: 390px;
+  background: #f3e8df;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #b58b80;
+}
+
+.about-story-visual span {
+  font-size: 100px;
+}
+
+.about-story-visual p {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-story-text h2,
+.section-heading h2,
+.about-philosophy h2,
+.about-promise h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.about-story-text > p:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #777;
+  margin-bottom: 17px;
+}
+
+.creative-world {
+  padding: 85px 25px;
+  background: #faf7f3;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.section-heading > p:not(.eyebrow) {
+  color: #888;
+  font-size: 13px;
+}
+
+.creative-world-grid {
+  max-width: 950px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.creative-card {
+  background: #fff;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.creative-icon {
+  font-size: 48px;
+  color: #b78e91;
+  margin-bottom: 18px;
+}
+
+.creative-card h3 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.creative-subtitle {
+  color: #b18b8b;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.creative-card > p:last-child {
+  color: #888;
+  font-size: 13px;
+  line-height: 1.9;
+  margin-top: 18px;
+}
+
+.about-philosophy,
+.about-promise {
+  max-width: 750px;
+  margin: 100px auto;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.about-philosophy > p:last-child,
+.about-promise > p:last-child {
+  max-width: 550px;
+  margin: 20px auto 0;
+  color: #888;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.about-promise {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background: #f8f0ed;
+}
+
+@media (max-width: 650px) {
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin: 45px auto 75px;
+  }
+
+  .about-story-visual {
+    min-height: 260px;
+  }
+
+  .about-story-visual span {
+    font-size: 75px;
+  }
+
+  .about-story-text h2,
+  .section-heading h2,
+  .about-philosophy h2,
+  .about-promise h2 {
+    font-size: 28px;
+  }
+
+  .creative-world-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-philosophy,
+  .about-promise {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
